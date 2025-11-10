@@ -30,10 +30,11 @@ const Home = () => {
     <div className="home-container">
       <div className="home-header-top">
         <img
-          src="src\assets\banner.png"  
+          src="/assets/banner.png"
           alt="Icono noticias"
           className="home-header-img"
         />
+
       </div>
 
       <h1 className="home-title">📰 Noticias Recientes</h1>
