@@ -1,0 +1,72 @@
+.navbar-container {
+  width: 100%;
+  background-color: #000000;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navbar-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-title {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.navbar-links a:hover {
+  opacity: 0.8;
+}
+
+.navbar-btn {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.navbar-btn:hover {
+  background: #c82333;
+}
+
+.navbar-user {
+  font-size: 0.9rem;
+  color: #f0f0f0;
+  font-weight: 400;
+}
+
+.navbar-info {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.navbar-info-text {
+  background: rgba(255, 215, 0, 0.15);
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}

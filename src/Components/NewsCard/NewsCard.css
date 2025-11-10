@@ -1,0 +1,75 @@
+.newscard-container {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.newscard-container:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.newscard-img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-bottom: 1px solid #f1f1f1;
+  transition: transform 0.3s ease;
+}
+
+.newscard-container:hover .newscard-img {
+  transform: scale(1.04);
+}
+
+.newscard-body {
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.newscard-body h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.newscard-body p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0;
+  flex-grow: 1;
+  line-height: 1.4;
+}
+
+.newscard-meta {
+  font-size: 0.82rem;
+  color: #777;
+  display: block;
+  margin-top: 4px;
+}
+
+.newscard-btn {
+  margin-top: 10px;
+  align-self: flex-start;
+  background: #007bff;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.25s ease;
+}
+
+.newscard-btn:hover {
+  background: #0056b3;
+}

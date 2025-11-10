@@ -1,0 +1,47 @@
+.edit-container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.edit-form input,
+.edit-form textarea,
+.edit-form select {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.edit-form textarea {
+    min-height: 120px;
+}
+
+.edit-form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.edit-msg {
+    text-align: center;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.edit-loading {
+    text-align: center;
+    margin-top: 40px;
+    color: #555;
+}
